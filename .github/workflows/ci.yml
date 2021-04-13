@@ -43,7 +43,7 @@ jobs:
       - name: Run linter 👀
         run: npm run lint
     
-       - name: Build 
+      - name: Build 
         run: npm run generate
         # env:
         #   BASE_URL: 
