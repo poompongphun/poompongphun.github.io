@@ -13,6 +13,14 @@
       <v-container class="pa-0 fill-height">
         <v-toolbar-title>Poom</v-toolbar-title>
         <v-spacer></v-spacer>
+        <v-btn
+          icon
+          href="https://github.com/poompongphun"
+          target="_blank"
+          rel="noopener"
+        >
+          <v-icon>mdi-github</v-icon>
+        </v-btn>
         <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark">
           <v-icon>mdi-theme-light-dark</v-icon>
         </v-btn>

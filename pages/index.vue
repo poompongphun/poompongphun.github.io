@@ -1,7 +1,7 @@
 <template>
   <div>
     <welcomeSection />
-    <br />
+    <skill />
     <br />
     <br />
     <br />
@@ -17,9 +17,11 @@
 
 <script>
 import welcomeSection from '@/components/section/welcomeSection'
+import skill from '@/components/section/skill'
 export default {
   components: {
     welcomeSection,
+    skill,
   },
 }
 </script>
