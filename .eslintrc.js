@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   env: {
     browser: true,
+    es6: true,
     node: true,
   },
   parserOptions: {
@@ -9,10 +10,18 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
+    'prettier',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
   ],
   plugins: [],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+  },
 }

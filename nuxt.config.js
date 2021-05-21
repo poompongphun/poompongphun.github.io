@@ -16,7 +16,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Itim&display=swap',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -42,6 +48,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-i18n',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -52,6 +59,26 @@ export default {
     manifest: {
       lang: 'en',
     },
+  },
+
+  // i18n module configuration: https://i18n.nuxtjs.org/
+  i18n: {
+    locales: [
+      {
+        name: 'Thai',
+        code: 'th',
+        iso: 'th-TH',
+        file: 'th-TH.js',
+      },
+      {
+        name: 'English',
+        code: 'en',
+        iso: 'en-US',
+        file: 'en-US.js',
+      },
+    ],
+    defaultLocale: 'en',
+    langDir: 'lang/',
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
