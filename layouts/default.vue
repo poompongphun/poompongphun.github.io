@@ -2,12 +2,20 @@
   <v-app>
     <v-app-bar
       fixed
-      :color="`rgba(22, 22, 22, ${isTop ? '0' : '0.8'})`"
+      :color="
+        $vuetify.theme.dark
+          ? `rgba(22, 22, 22, ${isTop ? '0' : '0.8'})`
+          : `rgba(255, 255, 255, ${isTop ? '0' : '0.8'})`
+      "
       elevate-on-scroll
+      :dark="$vuetify.theme.dark"
     >
       <v-container class="pa-0 fill-height">
         <v-toolbar-title>Poom</v-toolbar-title>
         <v-spacer></v-spacer>
+        <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+          <v-icon>mdi-theme-light-dark</v-icon>
+        </v-btn>
         <v-menu offset-y nudge-left="70" rounded="xl">
           <template #activator="{ on, attrs }">
             <v-btn icon v-bind="attrs" v-on="on">

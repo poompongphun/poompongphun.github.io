@@ -1,6 +1,13 @@
 <template>
   <div class="section" :style="{ backgroundImage: `url(${backgroundUrl})` }">
-    <div class="fill-height welcome">
+    <div
+      class="fill-height welcome"
+      :style="{
+        'background-image': $vuetify.theme.dark
+          ? 'linear-gradient(to bottom,rgba(18, 18, 18, 0.6) 70%,rgba(18, 18, 18, 1))'
+          : 'linear-gradient(to bottom,rgba(255, 255, 255, 0.6) 70%,rgba(255, 255, 255, 1))',
+      }"
+    >
       <v-container class="fill-height">
         <v-row class="fill-height" align="center" justify="center">
           <v-col cols="12" md="9">
@@ -18,7 +25,9 @@
                 {{ $t('welcome').student }}
               </div>
             </div>
-            <v-btn color="dark" light>{{ $t('welcome').buttons.about }}</v-btn>
+            <v-btn :dark="!$vuetify.theme.dark" :light="$vuetify.theme.dark">
+              {{ $t('welcome').buttons.about }}
+            </v-btn>
           </v-col>
           <v-col v-if="$vuetify.breakpoint.mdAndUp" cols="0" md="3">
             <div class="images">
@@ -62,11 +71,6 @@ export default {
   background-color: gray;
 }
 .welcome {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(18, 18, 18, 0.6) 70%,
-    rgba(18, 18, 18, 1)
-  );
   .images {
     width: 400px;
     right: 0;
