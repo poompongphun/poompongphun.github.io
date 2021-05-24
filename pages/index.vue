@@ -37,7 +37,6 @@ export default {
     skill,
   },
   data: () => ({
-    model: null,
     skills: [
       {
         img: htmlImg,
