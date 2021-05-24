@@ -7,5 +7,7 @@ export default {
     buttons: {
       about: 'เกี่ยวกับฉัน',
     },
+    project: 'โปรเจคของฉัน',
+    showmore: 'แสดงเพิ่มเติม',
   },
 }

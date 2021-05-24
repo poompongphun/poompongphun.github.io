@@ -29,3 +29,13 @@ $font-family: "Itim";
     transform: translateX(0px);
     opacity: 1;
 }
+
+.scale-up {
+    transform: scale(0);
+    opacity: 0;
+}
+.scale-up-enter {
+    transition: transform 1s, opacity 1.5s;
+    transform: scale(1);
+    opacity: 1;
+}

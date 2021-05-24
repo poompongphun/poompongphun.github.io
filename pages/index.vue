@@ -2,6 +2,7 @@
   <div>
     <welcomeSection />
     <skill :skills="skills" />
+    <project :projects="projects" />
     <br />
     <br />
     <br />
@@ -18,6 +19,7 @@
 <script>
 import welcomeSection from '@/components/section/welcomeSection'
 import skill from '@/components/section/skill'
+import project from '@/components/section/project'
 
 import htmlImg from '~/assets/images/icon/html.png'
 import cssImg from '~/assets/images/icon/css.png'
@@ -35,6 +37,7 @@ export default {
   components: {
     welcomeSection,
     skill,
+    project,
   },
   data: () => ({
     skills: [
@@ -85,6 +88,32 @@ export default {
       {
         img: mongodbImg,
         name: 'MongoDB',
+      },
+    ],
+    projects: [
+      {
+        name: 'Micket',
+        img: [
+          'https://cdn.discordapp.com/attachments/564425976893800468/846412400093298708/unknown.png',
+        ],
+      },
+      {
+        name: 'Vet Clinic',
+        img: [
+          'https://cdn.discordapp.com/attachments/564425976893800468/846411630244921434/unknown.png',
+        ],
+      },
+      {
+        name: 'IMed User Manual',
+        img: [
+          'https://cdn.discordapp.com/attachments/564425976893800468/846411940485005323/unknown.png',
+        ],
+      },
+      {
+        name: 'ThisAnime',
+        img: [
+          'https://media.discordapp.net/attachments/564425976893800468/846423082277011466/unknown.png?width=954&height=589',
+        ],
       },
     ],
   }),
