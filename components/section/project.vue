@@ -1,7 +1,7 @@
 <template>
   <div
     v-intersect="onIntersect"
-    class="scroll-up"
+    class="my-10 scroll-up"
     :class="{ 'scroll-up-enter': isShow }"
   >
     <div class="py-5 text-center">
@@ -27,13 +27,12 @@
           md="4"
           xl="3"
         >
-          <v-hover v-slot="{ hover }" open-delay="1000">
+          <v-hover v-slot="{ hover }" open-delay="250">
             <v-card
               :ref="`project-${n}`"
               :elevation="hover ? 12 : 1"
               class="rounded-xl scale-up"
               :class="{ 'scale-up-enter': project.show }"
-              to="/"
             >
               <v-carousel
                 height="auto"
@@ -58,7 +57,7 @@
                       }"
                     >
                       <v-card-title>
-                        <v-chip>
+                        <v-chip :light="!$vuetify.theme.dark">
                           {{ project.name }}
                           {{ img.name !== '' ? ` : ${img.name}` : '' }}
                         </v-chip>
@@ -87,10 +86,30 @@ export default {
     isShow: false,
     projectShow: [],
   }),
+  computed: {
+    showProject() {
+      const project = []
+      const numItem = this.$vuetify.breakpoint.xlAndUp
+        ? 8
+        : this.$vuetify.breakpoint.mdAndUp
+        ? 6
+        : 4
+      for (let i = 0; i < numItem; i++) {
+        project.push(this.projectShow[i])
+      }
+      return project
+    },
+  },
   watch: {
     isShow(val) {
       if (val) {
-        for (let i = 0; i < this.projects.length; i++) {
+        const num = this.$vuetify.breakpoint.xl
+          ? 8
+          : this.$vuetify.breakpoint.mdAndUp
+          ? 6
+          : 4
+        const numItem = this.projects.length >= num ? num : this.projects.length
+        for (let i = 0; i < numItem; i++) {
           ;((index) => {
             setTimeout(() => {
               this.projectShow.push(this.projects[i])
@@ -98,7 +117,7 @@ export default {
                 this.projectShow[i].show = true
 
                 // fix bug if dont use this last array will not show
-                if (i === this.projects.length - 1) {
+                if (i === numItem - 1) {
                   this.$refs[`project-${i}`][0].$el.classList.value =
                     this.$refs[`project-${i}`][0].$el.classList.value +
                     ' scale-up-enter'

@@ -78,7 +78,7 @@ export default {
                 this.skillShow[i].show = true
 
                 // fix bug if dont use this last array will not show
-                if (i === this.skills.length - 1) {
+                if (i === this.skills.length - 1 && this.$refs[`skill-${i}`]) {
                   this.$refs[`skill-${i}`][0].$el.classList.value =
                     this.$refs[`skill-${i}`][0].$el.classList.value +
                     ' slide-left-enter'

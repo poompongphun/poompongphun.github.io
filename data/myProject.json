@@ -4,11 +4,31 @@
         "img": [
             {
                 "name": "",
-                "src": "https://cdn.discordapp.com/attachments/564425976893800468/847055258789216316/unknown.png"
+                "src": "/images/preview/Micket/Micket (1).png"
             },
             {
                 "name": "Store",
-                "src": "https://cdn.discordapp.com/attachments/564425976893800468/846412400093298708/unknown.png"
+                "src": "/images/preview/Micket/Micket (2).png"
+            },
+            {
+                "name": "Movie manage",
+                "src": "/images/preview/Micket/Micket (3).png"
+            },
+            {
+                "name": "Edit movie info",
+                "src": "/images/preview/Micket/Micket (4).png"
+            },
+            {
+                "name": "Upload movie",
+                "src": "/images/preview/Micket/Micket (5).png"
+            },
+            {
+                "name": "Watch movie",
+                "src": "/images/preview/Micket/Micket (6).png"
+            },
+            {
+                "name": "Wallet",
+                "src": "/images/preview/Micket/Micket (7).png"
             }
         ]
     },
@@ -26,7 +46,15 @@
         "img": [
             {
                 "name": "",
-                "src": "https://cdn.discordapp.com/attachments/564425976893800468/846411940485005323/unknown.png"
+                "src": "/images/preview/iMed/IMed (1).png"
+            },
+            {
+                "name": "Document",
+                "src": "/images/preview/iMed/IMed (2).png"
+            },
+            {
+                "name": "Search",
+                "src": "/images/preview/iMed/IMed (3).png"
             }
         ]
     },
@@ -35,11 +63,19 @@
         "img": [
             {
                 "name": "",
-                "src": "https://cdn.discordapp.com/attachments/564425976893800468/847054882774188052/unknown.png"
+                "src": "/images/preview/ThisAnime/ThisAnime (1).png"
             },
             {
                 "name": "Home",
-                "src": "https://cdn.discordapp.com/attachments/564425976893800468/847042085382783017/unknown.png"
+                "src": "/images/preview/ThisAnime/ThisAnime (2).png"
+            },
+            {
+                "name": "Post of anime",
+                "src": "/images/preview/ThisAnime/ThisAnime (3).png"
+            },
+            {
+                "name": "Anime List",
+                "src": "/images/preview/ThisAnime/ThisAnime (4).png"
             }
         ]
     }
