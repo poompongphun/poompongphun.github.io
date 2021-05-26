@@ -17,23 +17,26 @@
       <v-slide-item v-for="(skill, n) in skillShow" :key="n">
         <v-tooltip bottom>
           <template #activator="{ on, attrs }">
-            <v-card
-              :ref="`skill-${n}`"
-              class="my-1 mx-1 pa-5 rounded-xl text-center elevation-0 slide-left"
-              :class="{ 'slide-left-enter': skill.show }"
-              :height="size"
-              :width="size"
-              v-bind="attrs"
-              v-on="on"
-            >
-              <v-img
-                class="mx-auto"
-                width="100%"
-                height="100%"
-                :src="skill.img"
-                contain
-              ></v-img>
-            </v-card>
+            <v-hover v-slot="{ hover }">
+              <v-card
+                :ref="`skill-${n}`"
+                :elevation="hover ? 12 : 0"
+                class="my-1 mx-1 pa-5 rounded-xl text-center slide-left"
+                :class="{ 'slide-left-enter': skill.show }"
+                :height="size"
+                :width="size"
+                v-bind="attrs"
+                v-on="on"
+              >
+                <v-img
+                  class="mx-auto"
+                  width="100%"
+                  height="100%"
+                  :src="skill.img"
+                  contain
+                ></v-img>
+              </v-card>
+            </v-hover>
           </template>
           <span>{{ skill.name }}</span>
         </v-tooltip>

@@ -53,10 +53,9 @@
 </template>
 
 <script>
-import backgroundUrl from '~/assets/images/code-bg.png'
 export default {
   data: () => ({
-    backgroundUrl,
+    backgroundUrl: '/images/code-bg.png',
   }),
 }
 </script>

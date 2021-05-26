@@ -9,7 +9,7 @@
         {{ $t('welcome').project }}
         <v-tooltip bottom>
           <template #activator="{ on, attrs }">
-            <v-btn fab icon x-small v-bind="attrs" v-on="on">
+            <v-btn fab icon x-small to="/project" v-bind="attrs" v-on="on">
               <v-icon>mdi-chevron-right</v-icon>
             </v-btn>
           </template>
@@ -27,32 +27,48 @@
           md="4"
           xl="3"
         >
-          <v-card
-            :ref="`project-${n}`"
-            class="rounded-xl elevation-1 scale-up"
-            :class="{ 'scale-up-enter': project.show }"
-            to="/"
-          >
-            <v-img
-              class="align-end"
-              :aspect-ratio="16 / 9"
-              :src="project.img[0]"
+          <v-hover v-slot="{ hover }" open-delay="1000">
+            <v-card
+              :ref="`project-${n}`"
+              :elevation="hover ? 12 : 1"
+              class="rounded-xl scale-up"
+              :class="{ 'scale-up-enter': project.show }"
+              to="/"
             >
-              <div
-                :style="{
-                  'background-image': $vuetify.theme.dark
-                    ? 'linear-gradient(to bottom,rgba(18, 18, 18, 0) ,rgba(18, 18, 18, 0.8) 80%)'
-                    : 'linear-gradient(to bottom,rgba(255, 255, 255, 0) ,rgba(255, 255, 255, 0.8) 80%)',
-                }"
+              <v-carousel
+                height="auto"
+                hide-delimiter-background
+                hide-delimiters
+                :next-icon="false"
+                :prev-icon="false"
+                :cycle="hover"
+                interval="1000"
               >
-                <v-card-title>
-                  <v-chip>
-                    {{ project.name }}
-                  </v-chip>
-                </v-card-title>
-              </div>
-            </v-img>
-          </v-card>
+                <v-carousel-item v-for="(img, i) in project.img" :key="i">
+                  <v-img
+                    class="align-end"
+                    :aspect-ratio="16 / 9"
+                    :src="img.src"
+                  >
+                    <div
+                      :style="{
+                        'background-image': $vuetify.theme.dark
+                          ? 'linear-gradient(to bottom,rgba(18, 18, 18, 0) ,rgba(18, 18, 18, 0.8) 80%)'
+                          : 'linear-gradient(to bottom,rgba(255, 255, 255, 0) ,rgba(255, 255, 255, 0.8) 80%)',
+                      }"
+                    >
+                      <v-card-title>
+                        <v-chip>
+                          {{ project.name }}
+                          {{ img.name !== '' ? ` : ${img.name}` : '' }}
+                        </v-chip>
+                      </v-card-title>
+                    </div>
+                  </v-img>
+                </v-carousel-item>
+              </v-carousel>
+            </v-card>
+          </v-hover>
         </v-col>
       </v-row>
     </v-scroll-y-reverse-transition>

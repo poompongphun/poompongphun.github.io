@@ -1,0 +1,50 @@
+[
+    {
+        "img": "/images/icon/html.png",
+        "name": "HTML"
+    },
+    {
+        "img": "/images/icon/css.png",
+        "name": "Cascading Style Sheets"
+    },
+    {
+        "img": "/images/icon/js.png",
+        "name": "Javascript"
+    },
+    {
+        "img": "/images/icon/nodejs.png",
+        "name": "PHP"
+    },
+    {
+        "img": "/images/icon/php.png",
+        "name": "Node.js"
+    },
+    {
+        "img": "/images/icon/express.png",
+        "name": "Express.js"
+    },
+    {
+        "img": "/images/icon/vue.png",
+        "name": "Vue.js"
+    },
+    {
+        "img": "/images/icon/nuxt.png",
+        "name": "Nuxt.js"
+    },
+    {
+        "img": "/images/icon/vuetify.png",
+        "name": "Vuetify"
+    },
+    {
+        "img": "/images/icon/bootstrap.pn",
+        "name": "Bootstrap"
+    },
+    {
+        "img": "/images/icon/mysql.png",
+        "name": "MySQL"
+    },
+    {
+        "img": "/images/icon/mongodb.png",
+        "name": "MongoDB"
+    }
+]

@@ -11,7 +11,7 @@
       :dark="$vuetify.theme.dark"
     >
       <v-container class="pa-0 fill-height">
-        <v-toolbar-title>Poom</v-toolbar-title>
+        <v-toolbar-title @click="$router.push('/')">Poom</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn
           icon
