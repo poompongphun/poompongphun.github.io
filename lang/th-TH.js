@@ -10,4 +10,9 @@ export default {
     project: 'โปรเจคของฉัน',
     showmore: 'แสดงเพิ่มเติม',
   },
+  project: {
+    project: 'โปรเจค',
+    tools: 'ภาษา และ เครื่องมือ',
+    noDescription: 'ไม่มีคำอธิบาย',
+  },
 }

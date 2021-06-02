@@ -1,6 +1,13 @@
 [
     {
         "name": "Micket",
+        "description": {
+            "en": "This website is a final project for a vocational degree. This website is called Micket. This is a website for buying or selling movies. Filmmakers can upload movies and set prices to sell to customers. All users can buy movies in the store and can watch them instantly on the website. This website supports on all devices.",
+            "th": "เว็บไซต์นี้เป็นโปรเจคจบในระดับ ปวช. เว็บไชต์นี้มีชื่อว่า Micket เป็นเว็บไซต์ที่ใช้สำหรับซื้อหรือขายภาพยนตร์ โดยผู้ผลิตภาพยนตร์สามารถอัพโหลดภาพยนตร์และตั้งราคาเพื่อขายให้กับลูกค้าได้ ส่วนผู้ใช้ทุกคนสามารถซื้อภาพยนตร์ในร้านค้าและสามารถดูได้ทันทีบนเว็บไซต์ เว็บไซต์นี้รองรับการแสดงผลทุกอุปกรณ์"
+        },
+        "link": "https://micket.herokuapp.com/",
+        "github": "https://github.com/poompongphun/micket-web",
+        "tools": ["HTML", "CSS", "Javascript", "Vue.js", "Vuetify", "Nuxt.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase Storage", "Paypal API", "Heroku"],
         "img": [
             {
                 "name": "",
@@ -34,6 +41,13 @@
     },
     {
         "name": "Vet Clinic",
+        "description": {
+            "en": "",
+            "th": ""
+        },
+        "link": "https://somprasongd.github.io/vet-clinic-web/",
+        "github": "https://github.com/somprasongd/vet-clinic-web",
+        "tools": [],
         "img": [
             {
                 "name": "",
@@ -43,6 +57,13 @@
     },
     {
         "name": "IMed User Manual",
+        "description": {
+            "en": "",
+            "th": ""
+        },
+        "link": "http://61.19.253.24:5555/",
+        "github": "",
+        "tools": [],
         "img": [
             {
                 "name": "",
@@ -60,6 +81,13 @@
     },
     {
         "name": "ThisAnime",
+        "description": {
+            "en": "",
+            "th": ""
+        },
+        "link": "https://thisanim.000webhostapp.com/",
+        "github": "",
+        "tools": [],
         "img": [
             {
                 "name": "",

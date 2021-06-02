@@ -33,6 +33,7 @@
               :elevation="hover ? 12 : 1"
               class="rounded-xl scale-up"
               :class="{ 'scale-up-enter': project.show }"
+              :to="`/project/${project.name.split(' ').join('-')}`"
             >
               <v-carousel
                 height="auto"

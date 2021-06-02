@@ -10,4 +10,9 @@ export default {
     project: 'My Projects',
     showmore: 'Show more',
   },
+  project: {
+    project: 'Project',
+    tools: 'Languages & Tools',
+    noDescription: 'No description',
+  },
 }
