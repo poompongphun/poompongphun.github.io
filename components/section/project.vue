@@ -27,7 +27,7 @@
           md="4"
           xl="3"
         >
-          <v-hover v-slot="{ hover }" open-delay="250">
+          <v-hover v-slot="{ hover }">
             <v-card
               :ref="`project-${n}`"
               :elevation="hover ? 12 : 1"

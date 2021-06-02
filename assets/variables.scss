@@ -35,11 +35,12 @@ $font-family: "Itim";
     opacity: 0;
 }
 .scale-up-enter {
-    transition: transform 1s, opacity 1.5s, box-shadow 0.2s;;
+    transition: transform 1s, opacity 1.5s, box-shadow 0.2s;
     transform: scale(1);
     opacity: 1;
     &:hover {
         transform: scale(1.03);
         transition: transform 0.2s ease-in-out;
+        z-index: 1;
     }
 }
