@@ -1,6 +1,8 @@
+import myInfo from '~/data/myInfo.json'
 import mySkills from '~/data/mySkills.json'
 import myProject from '~/data/myProject.json'
 export const state = () => ({
+  me: myInfo,
   skills: mySkills,
   projects: myProject,
 })

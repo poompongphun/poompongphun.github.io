@@ -1,14 +1,16 @@
 export default {
   welcome: {
     hello: 'สวัสดี',
-    name: 'ฉันชื่อ พงพันธุ์ ศักดาสาวิตร',
-    student: 'ฉันเป็นนักศึกษาเทคโนโลยีสารสนเทศ',
+    name: 'ฉันชื่อ',
+    student: 'ฉันเป็น',
     skill: 'ทักษะของฉัน',
     buttons: {
-      about: 'เกี่ยวกับฉัน',
+      more: 'ข้อมูลเพิ่มเติม',
     },
     project: 'โปรเจคของฉัน',
     showmore: 'แสดงเพิ่มเติม',
+    personal: 'ข้อมูลส่วนตัว',
+    education: 'การศึกษา',
   },
   project: {
     project: 'โปรเจค',

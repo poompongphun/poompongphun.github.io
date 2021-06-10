@@ -1,14 +1,16 @@
 export default {
   welcome: {
     hello: 'Hello',
-    name: "I'm Pongphun Sakdasawit",
-    student: 'I am an information technology student',
+    name: "I'm",
+    student: 'I am',
     skill: 'My Skills',
     buttons: {
-      about: 'About me',
+      more: 'More info',
     },
     project: 'My Projects',
     showmore: 'Show more',
+    personal: 'Personal Info',
+    education: 'Education',
   },
   project: {
     project: 'Project',

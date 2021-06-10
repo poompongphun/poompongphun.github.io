@@ -1,0 +1,114 @@
+{
+    "en": {
+        "name" : "Pongphun Sakdasawit",
+        "career": "an Infomation Technology Student",
+        "personalInfo": [
+            {
+                "type": "Frist name",
+                "value": "Pongphun"
+            },
+            {
+                "type": "Last name",
+                "value": "Sakdasawit"
+            },
+            {
+                "type": "Date of birth",
+                "value": "25 September 2002"
+            },
+            {
+                "type": "Address",
+                "value": "Phuket Thailand"
+            },
+            {
+                "type": "Email",
+                "value": "poompongphun@gmail.com"
+            },
+            {
+                "type": "Phone",
+                "value": "-"
+            }
+        ],
+        "education": [
+            {
+                "color": "blue",
+                "year": "2009",
+                "image": "/images/edu/abpk.png",
+                "name": "Abuban phuket school"
+            },
+            {
+                "color": "red",
+                "year": "2015",
+                "image": "/images/edu/swpk.png",
+                "name": "Srinagarindra the princess mother school"
+            },
+            {
+                "color": "yellow",
+                "year": "2018",
+                "image": "/images/edu/ptc.png",
+                "name": "Phuket technical college"
+            },
+            {
+                "color": "orange",
+                "year": "2021 (Now)",
+                "image": "/images/edu/kmitl.png",
+                "name": "King mongkut's institute of technology ladkrabang"
+            }
+        ]
+    },
+    "th": {
+        "name" : "พงพันธุ์ ศักดาสาวิตร",
+        "career": "นักศึกษาเทคโนโลยีสารสนเทศ",
+        "personalInfo": [
+            {
+                "type": "ชื่อ",
+                "value": "พงพันธุ์"
+            },
+            {
+                "type": "นามสกุล",
+                "value": "ศักดาสาวิตร"
+            },
+            {
+                "type": "วันเกิด",
+                "value": "25 กันยายน 2545"
+            },
+            {
+                "type": "ที่อยู่",
+                "value": "ภูเก็ต ประเทศไทย"
+            },
+            {
+                "type": "อีเมล",
+                "value": "poompongphun@gmail.com"
+            },
+            {
+                "type": "เบอร์โทรศัพท์",
+                "value": "-"
+            }
+        ],
+        "education": [
+            {
+                "color": "blue",
+                "year": "2552",
+                "image": "/images/edu/abpk.png",
+                "name": "โรงเรียนอนุบาลภูเก็ต"
+            },
+            {
+                "color": "red",
+                "year": "2558",
+                "image": "/images/edu/swpk.png",
+                "name": "โรงเรียนเฉลิมพระเกียรติสมเด็จพระศรีนครินทร์ ภูเก็ต"
+            },
+            {
+                "color": "yellow",
+                "year": "2561",
+                "image": "/images/edu/ptc.png",
+                "name": "วิทยาลัยเทคนิค ภูเก็ต"
+            },
+            {
+                "color": "orange",
+                "year": "2564 (ตอนนี้)",
+                "image": "/images/edu/kmitl.png",
+                "name": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+            }
+        ]
+    }
+}
