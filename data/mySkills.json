@@ -16,6 +16,10 @@
         "name": "PHP"
     },
     {
+        "img": "/images/icon/python.png",
+        "name": "Python"
+    },
+    {
         "img": "/images/icon/php.png",
         "name": "Node.js"
     },

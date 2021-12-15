@@ -1,110 +1,269 @@
 [
-    {
-        "name": "Micket",
-        "description": {
-            "en": "This website is a final project for a vocational degree. This website is called Micket. This is a website for buying or selling movies. Filmmakers can upload movies and set prices to sell to customers. All users can buy movies in the store and can watch them instantly on the website. This website supports on all devices.",
-            "th": "เว็บไซต์นี้เป็นโปรเจคจบในระดับ ปวช. เว็บไชต์นี้มีชื่อว่า Micket เป็นเว็บไซต์ที่ใช้สำหรับซื้อหรือขายภาพยนตร์ โดยผู้ผลิตภาพยนตร์สามารถอัพโหลดภาพยนตร์และตั้งราคาเพื่อขายให้กับลูกค้าได้ ส่วนผู้ใช้ทุกคนสามารถซื้อภาพยนตร์ในร้านค้าและสามารถดูได้ทันทีบนเว็บไซต์ เว็บไซต์นี้รองรับการแสดงผลทุกอุปกรณ์"
-        },
-        "link": "https://micket.herokuapp.com/",
-        "github": "https://github.com/poompongphun/micket-web",
-        "tools": ["HTML", "CSS", "Javascript", "Vue.js", "Vuetify", "Nuxt.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase Storage", "Paypal API", "Heroku"],
-        "img": [
-            {
-                "name": "",
-                "src": "/images/preview/Micket/Micket (1).png"
-            },
-            {
-                "name": "Store",
-                "src": "/images/preview/Micket/Micket (2).png"
-            },
-            {
-                "name": "Movie manage",
-                "src": "/images/preview/Micket/Micket (3).png"
-            },
-            {
-                "name": "Edit movie info",
-                "src": "/images/preview/Micket/Micket (4).png"
-            },
-            {
-                "name": "Upload movie",
-                "src": "/images/preview/Micket/Micket (5).png"
-            },
-            {
-                "name": "Watch movie",
-                "src": "/images/preview/Micket/Micket (6).png"
-            },
-            {
-                "name": "Wallet",
-                "src": "/images/preview/Micket/Micket (7).png"
-            }
-        ]
+  {
+    "name": "Micket",
+    "description": {
+      "en": "This website is a final project for a vocational degree. This website is called Micket. This is a website for buying or selling movies. Filmmakers can upload movies and set prices to sell to customers. All users can buy movies in the store and can watch them instantly on the website. This website supports on all devices.",
+      "th": "เว็บไซต์นี้เป็นโปรเจคจบในระดับ ปวช. เว็บไชต์นี้มีชื่อว่า Micket เป็นเว็บไซต์ที่ใช้สำหรับซื้อหรือขายภาพยนตร์ โดยผู้ผลิตภาพยนตร์สามารถอัพโหลดภาพยนตร์และตั้งราคาเพื่อขายให้กับลูกค้าได้ ส่วนผู้ใช้ทุกคนสามารถซื้อภาพยนตร์ในร้านค้าและสามารถดูได้ทันทีบนเว็บไซต์ เว็บไซต์นี้รองรับการแสดงผลทุกอุปกรณ์"
     },
-    {
-        "name": "Vet Clinic",
-        "description": {
-            "en": "",
-            "th": ""
-        },
-        "link": "https://somprasongd.github.io/vet-clinic-web/",
-        "github": "https://github.com/somprasongd/vet-clinic-web",
-        "tools": [],
-        "img": [
-            {
-                "name": "",
-                "src": "https://cdn.discordapp.com/attachments/564425976893800468/846411630244921434/unknown.png"
-            }
-        ]
+    "link": "https://micket.herokuapp.com/",
+    "github": "https://github.com/poompongphun/micket-web",
+    "tools": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Vue.js",
+      "Vuetify",
+      "Nuxt.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Firebase Storage",
+      "Paypal API",
+      "Heroku"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/Micket/Micket (1).png"
+      },
+      {
+        "name": "Store",
+        "src": "/images/preview/Micket/Micket (2).png"
+      },
+      {
+        "name": "Movie manage",
+        "src": "/images/preview/Micket/Micket (3).png"
+      },
+      {
+        "name": "Edit movie info",
+        "src": "/images/preview/Micket/Micket (4).png"
+      },
+      {
+        "name": "Upload movie",
+        "src": "/images/preview/Micket/Micket (5).png"
+      },
+      {
+        "name": "Watch movie",
+        "src": "/images/preview/Micket/Micket (6).png"
+      },
+      {
+        "name": "Wallet",
+        "src": "/images/preview/Micket/Micket (7).png"
+      }
+    ]
+  },
+  {
+    "name": "Vet Clinic",
+    "description": {
+      "en": "This project is a project that I did during my internship at Open Source Technology Company Limited. It is a website that is used to manage services within animal clinics.",
+      "th": "โปรเจคนี้เป็นโปรเจคที่ได้ทำระหว่างฝึกงานที่ บริษัทโอเพน ซอร์ส เทคโนโลยี จำกัด เป็นเว็บไซต์ที่ใช้บริหารจัดการการบริการภายในคลินิกสัตว์"
     },
-    {
-        "name": "IMed User Manual",
-        "description": {
-            "en": "",
-            "th": ""
-        },
-        "link": "http://61.19.253.24:5555/",
-        "github": "",
-        "tools": [],
-        "img": [
-            {
-                "name": "",
-                "src": "/images/preview/iMed/IMed (1).png"
-            },
-            {
-                "name": "Document",
-                "src": "/images/preview/iMed/IMed (2).png"
-            },
-            {
-                "name": "Search",
-                "src": "/images/preview/iMed/IMed (3).png"
-            }
-        ]
+    "link": "https://somprasongd.github.io/vet-clinic-web/",
+    "github": "https://github.com/somprasongd/vet-clinic-web",
+    "tools": ["HTML", "CSS", "Javascript", "Vue.js", "Vuetify", "Nuxt.js"],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (0).png"
+      },
+      {
+        "name": "Queue",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (0.1).jpg"
+      },
+      {
+        "name": "Queue",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (0.2).jpg"
+      },
+      {
+        "name": "Queue",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (0.3).jpg"
+      },
+      {
+        "name": "Medical Record",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (1).jpg"
+      },
+      {
+        "name": "Medical Record",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (2).jpg"
+      },
+      {
+        "name": "Medical Record",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (3).jpg"
+      },
+      {
+        "name": "Medical Record",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (4).jpg"
+      },
+      {
+        "name": "Medical Record",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (5).jpg"
+      },
+      {
+        "name": "Report",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (6).jpg"
+      },
+      {
+        "name": "Setting",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (7).jpg"
+      },
+      {
+        "name": "Setting",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (8).jpg"
+      },
+      {
+        "name": "Setting",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (9).jpg"
+      },
+      {
+        "name": "Setting",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (10).jpg"
+      },
+      {
+        "name": "Setting",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (11).jpg"
+      },
+      {
+        "name": "Setting",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (12).jpg"
+      },
+      {
+        "name": "Setting",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (13).jpg"
+      },
+      {
+        "name": "Examination",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (14).jpg"
+      },
+      {
+        "name": "Examination",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (15).jpg"
+      },
+      {
+        "name": "Examination List",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (16).jpg"
+      },
+      {
+        "name": "Check List",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (17).jpg"
+      },
+      {
+        "name": "Lab",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (18).jpg"
+      },
+      {
+        "name": "Xray",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (19).jpg"
+      },
+      {
+        "name": "Treatment history",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (20).jpg"
+      },
+      {
+        "name": "Appointment",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (21).jpg"
+      },
+      {
+        "name": "Appointment",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (22).jpg"
+      },
+      {
+        "name": "Deposit",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (23).jpg"
+      },
+      {
+        "name": "Attach Picture",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (24).jpg"
+      },
+      {
+        "name": "Attach Picture",
+        "src": "/images/preview/Vet Clinic/Vet Clinic (25).jpg"
+      }
+    ]
+  },
+  {
+    "name": "IMed User Manual",
+    "description": {
+      "en": "This project is a project that I did during my internship at Open Source Technology Company Limited. It is a document website for program that use in company.",
+      "th": "โปรเจคนี้เป็นโปรเจคที่ได้ทำระหว่างฝึกงานที่ บริษัทโอเพน ซอร์ส เทคโนโลยี จำกัด เป็นเว็บคู่มือสำหรับใช้โปรแกรมภายในบริษัท"
     },
-    {
-        "name": "ThisAnime",
-        "description": {
-            "en": "",
-            "th": ""
-        },
-        "link": "https://thisanim.000webhostapp.com/",
-        "github": "",
-        "tools": [],
-        "img": [
-            {
-                "name": "",
-                "src": "/images/preview/ThisAnime/ThisAnime (1).png"
-            },
-            {
-                "name": "Home",
-                "src": "/images/preview/ThisAnime/ThisAnime (2).png"
-            },
-            {
-                "name": "Post of anime",
-                "src": "/images/preview/ThisAnime/ThisAnime (3).png"
-            },
-            {
-                "name": "Anime List",
-                "src": "/images/preview/ThisAnime/ThisAnime (4).png"
-            }
-        ]
-    }
+    "link": "http://61.19.253.24:5555/",
+    "github": "",
+    "tools": ["HTML", "CSS", "Javascript", "Vue.js", "Vuepress"],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/iMed/IMed (1).png"
+      },
+      {
+        "name": "Document",
+        "src": "/images/preview/iMed/IMed (2).png"
+      },
+      {
+        "name": "Search",
+        "src": "/images/preview/iMed/IMed (3).png"
+      }
+    ]
+  },
+  {
+    "name": "ThisAnime",
+    "description": {
+      "en": "",
+      "th": ""
+    },
+    "link": "https://thisanim.000webhostapp.com/",
+    "github": "",
+    "tools": ["HTML", "CSS", "Javascript", "Jquery", "PHP", "MySQL", "AWS S3", "AWS EC2"],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/ThisAnime/ThisAnime (1).png"
+      },
+      {
+        "name": "Home",
+        "src": "/images/preview/ThisAnime/ThisAnime (2).png"
+      },
+      {
+        "name": "Post of anime",
+        "src": "/images/preview/ThisAnime/ThisAnime (3).png"
+      },
+      {
+        "name": "Anime List",
+        "src": "/images/preview/ThisAnime/ThisAnime (4).png"
+      }
+    ]
+  },
+  {
+    "name": "ITGG",
+    "description": {
+      "en": "",
+      "th": ""
+    },
+    "link": "https://gategame.it.kmitl.ac.th/",
+    "github": "https://github.com/poompongphun/itgg-web",
+    "tools": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Vue.js",
+      "Vuetify",
+      "Nuxt.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Heroku",
+      "Chart.js"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/ITGG/ITGG (1).png"
+      },
+      {
+        "name": "Player Score",
+        "src": "/images/preview/ITGG/ITGG (2).png"
+      }
+    ]
+  }
 ]

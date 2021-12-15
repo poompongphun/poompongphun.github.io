@@ -9,7 +9,15 @@
         {{ $t('welcome').project }}
         <v-tooltip bottom>
           <template #activator="{ on, attrs }">
-            <v-btn fab icon x-small to="/project" v-bind="attrs" v-on="on">
+            <v-btn
+              fab
+              icon
+              x-small
+              to="/project"
+              v-bind="attrs"
+              disabled
+              v-on="on"
+            >
               <v-icon>mdi-chevron-right</v-icon>
             </v-btn>
           </template>
