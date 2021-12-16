@@ -1,5 +1,38 @@
 [
   {
+    "name": "ITGG",
+    "description": {
+      "en": "",
+      "th": ""
+    },
+    "link": "https://gategame.it.kmitl.ac.th/",
+    "github": "https://github.com/poompongphun/itgg-web",
+    "tools": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Vue.js",
+      "Vuetify",
+      "Nuxt.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Heroku",
+      "Chart.js"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/ITGG/ITGG (1).png"
+      },
+      {
+        "name": "Player Score",
+        "src": "/images/preview/ITGG/ITGG (2).png"
+      }
+    ]
+  },
+  {
     "name": "Micket",
     "description": {
       "en": "This website is a final project for a vocational degree. This website is called Micket. This is a website for buying or selling movies. Filmmakers can upload movies and set prices to sell to customers. All users can buy movies in the store and can watch them instantly on the website. This website supports on all devices.",
@@ -230,39 +263,6 @@
       {
         "name": "Anime List",
         "src": "/images/preview/ThisAnime/ThisAnime (4).png"
-      }
-    ]
-  },
-  {
-    "name": "ITGG",
-    "description": {
-      "en": "",
-      "th": ""
-    },
-    "link": "https://gategame.it.kmitl.ac.th/",
-    "github": "https://github.com/poompongphun/itgg-web",
-    "tools": [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Vue.js",
-      "Vuetify",
-      "Nuxt.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Mongoose",
-      "Heroku",
-      "Chart.js"
-    ],
-    "img": [
-      {
-        "name": "",
-        "src": "/images/preview/ITGG/ITGG (1).png"
-      },
-      {
-        "name": "Player Score",
-        "src": "/images/preview/ITGG/ITGG (2).png"
       }
     ]
   }
