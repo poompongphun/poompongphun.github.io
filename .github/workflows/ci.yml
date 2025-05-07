@@ -45,9 +45,6 @@ jobs:
     
       - name: Build 
         run: npm run generate
-        # env:
-        #   BASE_URL: 
-        #   API_URI: 
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
