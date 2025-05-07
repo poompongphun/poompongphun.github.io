@@ -1,114 +1,154 @@
 {
-    "en": {
-        "name" : "Pongphun Sakdasawit",
-        "career": "Junior Software Engineer. I'm passionate about web development and stay up-to-date with tech trends to create innovative solutions.",
-        "personalInfo": [
-            {
-                "type": "Frist name",
-                "value": "Pongphun"
-            },
-            {
-                "type": "Last name",
-                "value": "Sakdasawit"
-            },
-            {
-                "type": "Date of birth",
-                "value": "25 September 2002"
-            },
-            {
-                "type": "Address",
-                "value": "Phuket Thailand"
-            },
-            {
-                "type": "Email",
-                "value": "poompongphun@gmail.com"
-            },
-            {
-                "type": "Phone",
-                "value": "-"
-            }
-        ],
-        "education": [
-            {
-                "color": "blue",
-                "year": "2009",
-                "image": "/images/edu/abpk.png",
-                "name": "Abuban phuket school"
-            },
-            {
-                "color": "red",
-                "year": "2015",
-                "image": "/images/edu/swpk.png",
-                "name": "Srinagarindra the princess mother school"
-            },
-            {
-                "color": "yellow",
-                "year": "2018",
-                "image": "/images/edu/ptc.png",
-                "name": "Phuket technical college"
-            },
-            {
-                "color": "orange",
-                "year": "2025 (Graduated)",
-                "image": "/images/edu/kmitl.png",
-                "name": "King mongkut's institute of technology ladkrabang"
-            }
-        ]
-    },
-    "th": {
-        "name" : "พงพันธุ์ ศักดาสาวิตร",
-        "career": "นักพัฒนาซอฟต์แวร์ระดับต้น เป็นผู้มีความสนใจในการพัฒนาเว็บไซต์ และติดตามเทคโนโลยีใหม่ๆ เพื่อสร้างสรรค์นวัตกรรมใหม่ๆ",
-        "personalInfo": [
-            {
-                "type": "ชื่อ",
-                "value": "พงพันธุ์"
-            },
-            {
-                "type": "นามสกุล",
-                "value": "ศักดาสาวิตร"
-            },
-            {
-                "type": "วันเกิด",
-                "value": "25 กันยายน 2545"
-            },
-            {
-                "type": "ที่อยู่",
-                "value": "ภูเก็ต ประเทศไทย"
-            },
-            {
-                "type": "อีเมล",
-                "value": "poompongphun@gmail.com"
-            },
-            {
-                "type": "เบอร์โทรศัพท์",
-                "value": "-"
-            }
-        ],
-        "education": [
-            {
-                "color": "blue",
-                "year": "2552",
-                "image": "/images/edu/abpk.png",
-                "name": "โรงเรียนอนุบาลภูเก็ต"
-            },
-            {
-                "color": "red",
-                "year": "2558",
-                "image": "/images/edu/swpk.png",
-                "name": "โรงเรียนเฉลิมพระเกียรติสมเด็จพระศรีนครินทร์ ภูเก็ต"
-            },
-            {
-                "color": "yellow",
-                "year": "2561",
-                "image": "/images/edu/ptc.png",
-                "name": "วิทยาลัยเทคนิค ภูเก็ต"
-            },
-            {
-                "color": "orange",
-                "year": "2568 (สำเร็จการศึกษา)",
-                "image": "/images/edu/kmitl.png",
-                "name": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
-            }
-        ]
-    }
+  "en": {
+    "name": "Pongphun Sakdasawit",
+    "career": "Junior Software Engineer. I'm passionate about web development and stay up-to-date with tech trends to create innovative solutions.",
+    "personalInfo": [
+      {
+        "type": "Frist name",
+        "value": "Pongphun"
+      },
+      {
+        "type": "Last name",
+        "value": "Sakdasawit"
+      },
+      {
+        "type": "Date of birth",
+        "value": "25 September 2002"
+      },
+      {
+        "type": "Address",
+        "value": "Phuket Thailand"
+      },
+      {
+        "type": "Email",
+        "value": "poompongphun@gmail.com"
+      },
+      {
+        "type": "Phone",
+        "value": "-"
+      }
+    ],
+    "education": [
+      {
+        "color": "blue",
+        "year": "2009",
+        "image": "/images/edu/abpk.png",
+        "name": "Abuban phuket school"
+      },
+      {
+        "color": "red",
+        "year": "2015",
+        "image": "/images/edu/swpk.png",
+        "name": "Srinagarindra the princess mother school"
+      },
+      {
+        "color": "yellow",
+        "year": "2018",
+        "image": "/images/edu/ptc.png",
+        "name": "Phuket technical college"
+      },
+      {
+        "color": "orange",
+        "year": "2025 (Graduated)",
+        "image": "/images/edu/kmitl.png",
+        "name": "King mongkut's institute of technology ladkrabang"
+      }
+    ],
+    "workExperience": [
+      {
+        "color": "yellow",
+        "year": "Frontend Developer (Intern 2020, 4 months)",
+        "image": "/images/work/imed.png",
+        "name": "Open Source Technology co.,ltd"
+      },
+      {
+        "color": "green",
+        "year": "Software Engineer (Intern 2024, 2 months)",
+        "image": "/images/work/lmwn.jpg",
+        "name": "LINEMAN WONGNAI"
+      },
+      {
+        "color": "blue",
+        "year": "Fullstack Developer (Intern 2024, 4 month + Part-time 2024, 2 month)",
+        "image": "/images/work/lmp.jpg",
+        "name": "LamunpunIT Co., Ltd. "
+      }
+    ]
+  },
+  "th": {
+    "name": "พงพันธุ์ ศักดาสาวิตร",
+    "career": "นักพัฒนาซอฟต์แวร์ระดับต้น เป็นผู้มีความสนใจในการพัฒนาเว็บไซต์ และติดตามเทคโนโลยีใหม่ๆ เพื่อสร้างสรรค์นวัตกรรมใหม่ๆ",
+    "personalInfo": [
+      {
+        "type": "ชื่อ",
+        "value": "พงพันธุ์"
+      },
+      {
+        "type": "นามสกุล",
+        "value": "ศักดาสาวิตร"
+      },
+      {
+        "type": "วันเกิด",
+        "value": "25 กันยายน 2545"
+      },
+      {
+        "type": "ที่อยู่",
+        "value": "ภูเก็ต ประเทศไทย"
+      },
+      {
+        "type": "อีเมล",
+        "value": "poompongphun@gmail.com"
+      },
+      {
+        "type": "เบอร์โทรศัพท์",
+        "value": "-"
+      }
+    ],
+    "education": [
+      {
+        "color": "blue",
+        "year": "2552",
+        "image": "/images/edu/abpk.png",
+        "name": "โรงเรียนอนุบาลภูเก็ต"
+      },
+      {
+        "color": "red",
+        "year": "2558",
+        "image": "/images/edu/swpk.png",
+        "name": "โรงเรียนเฉลิมพระเกียรติสมเด็จพระศรีนครินทร์ ภูเก็ต"
+      },
+      {
+        "color": "yellow",
+        "year": "2561",
+        "image": "/images/edu/ptc.png",
+        "name": "วิทยาลัยเทคนิค ภูเก็ต"
+      },
+      {
+        "color": "orange",
+        "year": "2568 (สำเร็จการศึกษา)",
+        "image": "/images/edu/kmitl.png",
+        "name": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      }
+    ],
+    "workExperience": [
+      {
+        "color": "yellow",
+        "year": "นักพัฒนาส่วนหน้า (ฝึกงาน 2563, 4 เดือน)",
+        "image": "/images/work/imed.png",
+        "name": "Open Source Technology co.,ltd"
+      },
+      {
+        "color": "green",
+        "year": "นักพัฒนาซอฟต์แวร์ (ฝึกงาน 2567, 2 เดือน)",
+        "image": "/images/work/lmwn.jpg",
+        "name": "LINEMAN WONGNAI"
+      },
+      {
+        "color": "blue",
+        "year": "นักพัฒนาระบบ (ฝึกงาน 2567, 4 เดือน + Part-time 2567, 2 เดือน)",
+        "image": "/images/work/lmp.jpg",
+        "name": "LamunpunIT Co., Ltd. "
+      }
+    ]
+  }
 }

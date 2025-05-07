@@ -33,8 +33,42 @@
               </v-col>
             </v-row>
             <v-btn block text @click="tab = 1">
-              {{ $t('welcome').education }}
+              {{ $t('welcome').workExperience }}
               <v-icon right>mdi-chevron-double-right</v-icon>
+            </v-btn>
+          </div>
+        </v-tab-item>
+        <v-tab-item>
+          <div class="text-center">
+            <h1 class="py-4">{{ $t('welcome').workExperience }}</h1>
+            <div class="timeline">
+              <v-timeline>
+                <v-timeline-item
+                  v-for="(work, i) in myWorkExperience"
+                  :key="i"
+                  :color="work.color"
+                  small
+                  fill-dot
+                >
+                  <template #opposite>
+                    <span :class="`font-weight-bold ${work.color}--text`">
+                      <h3>{{ work.year }}</h3>
+                    </span>
+                  </template>
+                  <div class="py-4">
+                    <v-avatar size="75" color="white">
+                      <v-img :src="work.image" alt="alt" />
+                    </v-avatar>
+                    <div>
+                      {{ work.name }}
+                    </div>
+                  </div>
+                </v-timeline-item>
+              </v-timeline>
+            </div>
+            <v-btn block text @click="tab = 2">
+              <v-icon left>mdi-chevron-double-right</v-icon>
+              {{ $t('welcome').education }}
             </v-btn>
           </div>
         </v-tab-item>
@@ -93,6 +127,11 @@ export default {
       return this.$i18n.locale === 'th'
         ? this.$store.state.me.th.education
         : this.$store.state.me.en.education
+    },
+    myWorkExperience() {
+      return this.$i18n.locale === 'th'
+        ? this.$store.state.me.th.workExperience
+        : this.$store.state.me.en.workExperience
     },
   },
   methods: {

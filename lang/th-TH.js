@@ -11,6 +11,7 @@ export default {
     showmore: 'แสดงเพิ่มเติม',
     personal: 'ข้อมูลส่วนตัว',
     education: 'การศึกษา',
+    workExperience: 'ประสบการณ์การทำงาน',
   },
   project: {
     project: 'โปรเจค',
