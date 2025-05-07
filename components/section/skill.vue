@@ -4,11 +4,6 @@
     class="my-10 scroll-up"
     :class="{ 'scroll-up-enter': isShow }"
   >
-    <div class="py-5 text-center">
-      <h1>
-        {{ $t('welcome').skill }} <v-chip>{{ skillShow.length }}</v-chip>
-      </h1>
-    </div>
     <v-slide-group
       v-model="model"
       class="custom-slide background rounded-xl mx-5 pa-1"
@@ -61,10 +56,10 @@ export default {
   computed: {
     size() {
       return this.$vuetify.breakpoint.mdAndUp
-        ? '200'
+        ? '150'
         : this.$vuetify.breakpoint.smAndUp
-        ? '175'
-        : '150'
+        ? '125'
+        : '100'
     },
   },
   watch: {

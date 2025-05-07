@@ -1,7 +1,23 @@
 <template>
   <div>
     <welcomeSection />
-    <skill :skills="skills" />
+
+    <div class="my-10">
+      <div class="py-5 text-center">
+        <h1>
+          {{ $t('welcome').skill }}
+          <v-chip>{{
+            sections.reduce((acc, cur) => acc + cur.skills.length, 0)
+          }}</v-chip>
+        </h1>
+      </div>
+      <skill
+        v-for="(section, index) in sections"
+        :key="index"
+        :skills="section.skills"
+      />
+    </div>
+
     <project :projects="projects" />
   </div>
 </template>
@@ -18,9 +34,9 @@ export default {
     project,
   },
   asyncData({ store }) {
-    const skills = store.state.skills
+    const sections = store.state.skills
     const projects = store.state.projects
-    return { skills, projects }
+    return { sections, projects }
   },
 }
 </script>

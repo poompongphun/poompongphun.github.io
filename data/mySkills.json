@@ -1,54 +1,162 @@
 [
-    {
+  {
+    "section": "Frontend",
+    "skills": [
+      {
         "img": "/images/icon/html.png",
         "name": "HTML"
-    },
-    {
+      },
+      {
         "img": "/images/icon/css.png",
         "name": "Cascading Style Sheets"
-    },
-    {
+      },
+      {
         "img": "/images/icon/js.png",
         "name": "Javascript"
-    },
-    {
-        "img": "/images/icon/nodejs.png",
-        "name": "PHP"
-    },
-    {
-        "img": "/images/icon/python.png",
-        "name": "Python"
-    },
-    {
-        "img": "/images/icon/php.png",
-        "name": "Node.js"
-    },
-    {
-        "img": "/images/icon/express.png",
-        "name": "Express.js"
-    },
-    {
+      },
+      {
         "img": "/images/icon/vue.png",
         "name": "Vue.js"
-    },
-    {
+      },
+      {
         "img": "/images/icon/nuxt.png",
         "name": "Nuxt.js"
-    },
-    {
+      },
+      {
+        "img": "/images/icon/react.png",
+        "name": "React.js"
+      },
+      {
+        "img": "/images/icon/nextjs.webp",
+        "name": "Next.js"
+      },
+      {
+        "img": "/images/icon/svelte.png",
+        "name": "Svelte"
+      },
+
+      {
+        "img": "/images/icon/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
         "img": "/images/icon/vuetify.png",
         "name": "Vuetify"
-    },
-    {
+      },
+      {
+        "img": "/images/icon/mui.png",
+        "name": "MUI"
+      },
+      {
+        "img": "/images/icon/antdesign.png",
+        "name": "Ant Design"
+      },
+      {
         "img": "/images/icon/bootstrap.png",
         "name": "Bootstrap"
-    },
-    {
+      }
+    ]
+  },
+  {
+    "section": "Programming Languages",
+    "skills": [
+      {
+        "img": "/images/icon/nodejs.png",
+        "name": "Node.js"
+      },
+      {
+        "img": "/images/icon/express.png",
+        "name": "Express.js"
+      },
+      {
+        "img": "/images/icon/python.png",
+        "name": "Python"
+      },
+      {
+        "img": "/images/icon/djangorest.webp",
+        "name": "Django REST Framework"
+      },
+      {
+        "img": "/images/icon/golang.png",
+        "name": "Go"
+      },
+      {
+        "img": "/images/icon/gogin.png",
+        "name": "Gin"
+      },
+      {
+        "img": "/images/icon/java.png",
+        "name": "Java"
+      },
+      {
+        "img": "/images/icon/springboot.png",
+        "name": "Spring Boot"
+      },
+      {
+        "img": "/images/icon/rabbit.png",
+        "name": "RabbitMQ"
+      },
+      {
+        "img": "/images/icon/php.png",
+        "name": "PHP"
+      },
+      {
         "img": "/images/icon/mysql.png",
         "name": "MySQL"
-    },
-    {
+      },
+      {
+        "img": "/images/icon/postgresql.png",
+        "name": "PostgreSQL"
+      },
+      {
         "img": "/images/icon/mongodb.png",
         "name": "MongoDB"
-    }
+      }
+    ]
+  },
+  {
+    "section": "Tools",
+    "skills": [
+      {
+        "img": "/images/icon/git.png",
+        "name": "Git"
+      },
+      {
+        "img": "/images/icon/github.png",
+        "name": "GitHub"
+      },
+      {
+        "img": "/images/icon/gitlab.png",
+        "name": "Gitlab"
+      },
+      {
+        "img": "/images/icon/docker.png",
+        "name": "Docker"
+      },
+      {
+        "img": "/images/icon/kubernetes.png",
+        "name": "Kubernetes"
+      },
+      {
+        "img": "/images/icon/jenkins.png",
+        "name": "Jenkins"
+      },
+      {
+        "img": "/images/icon/gcp.png",
+        "name": "Google Cloud Platform"
+      },
+      {
+        "img": "/images/icon/aws.png",
+        "name": "Amazon Web Services"
+      },
+      {
+        "img": "/images/icon/figma.png",
+        "name": "Figma"
+      },
+      {
+        "img": "/images/icon/jira.png",
+        "name": "Jira"
+      }
+    ]
+  }
 ]
