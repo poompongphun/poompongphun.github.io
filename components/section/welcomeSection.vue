@@ -48,7 +48,7 @@
             <div class="images">
               <v-img
                 width="100%"
-                src="https://preview.colorlib.com/theme/satner/img/banner/xhome-right.png.pagespeed.ic.F5fc5uJEZ3.webp"
+                src="/images/programmer.webp"
                 :style="{
                   right: `${
                     $vuetify.breakpoint.xl

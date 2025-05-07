@@ -1,7 +1,7 @@
 {
     "en": {
         "name" : "Pongphun Sakdasawit",
-        "career": "an Infomation Technology Student",
+        "career": "Junior Software Engineer. I'm passionate about web development and stay up-to-date with tech trends to create innovative solutions.",
         "personalInfo": [
             {
                 "type": "Frist name",
@@ -57,7 +57,7 @@
     },
     "th": {
         "name" : "พงพันธุ์ ศักดาสาวิตร",
-        "career": "นักศึกษาเทคโนโลยีสารสนเทศ",
+        "career": "นักพัฒนาซอฟต์แวร์ระดับต้น เป็นผู้มีความสนใจในการพัฒนาเว็บไซต์ และติดตามเทคโนโลยีใหม่ๆ เพื่อสร้างสรรค์นวัตกรรมใหม่ๆ",
         "personalInfo": [
             {
                 "type": "ชื่อ",
@@ -105,7 +105,7 @@
             },
             {
                 "color": "orange",
-                "year": "2564 (ตอนนี้)",
+                "year": "2568 (สำเร็จการศึกษา)",
                 "image": "/images/edu/kmitl.png",
                 "name": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
             }
