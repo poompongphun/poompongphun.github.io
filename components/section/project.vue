@@ -112,12 +112,13 @@ export default {
   watch: {
     isShow(val) {
       if (val) {
-        const num = this.$vuetify.breakpoint.xl
-          ? 8
-          : this.$vuetify.breakpoint.mdAndUp
-          ? 6
-          : 4
-        const numItem = this.projects.length >= num ? num : this.projects.length
+        // const num = this.$vuetify.breakpoint.xl
+        //   ? 8
+        //   : this.$vuetify.breakpoint.mdAndUp
+        //   ? 6
+        //   : 4
+        // const numItem = this.projects.length >= num ? num : this.projects.length
+        const numItem = this.projects.length
         for (let i = 0; i < numItem; i++) {
           ;((index) => {
             setTimeout(() => {

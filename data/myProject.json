@@ -1,5 +1,471 @@
 [
   {
+    "name": "Zinzae Barcode",
+    "description": {
+      "en": "This project is a Production project that is actually used. The company Barcode Life Co., Ltd. wanted to create a new website for fortune-telling and tarot card reading, so I designed and created the various pages.",
+      "th": "เป็น Production Project ที่นำไปใช้งานจริง โดยทางบริษัทคิวบาร์โค้ดชีวิต จำกัด ต้องการสร้างเว็บหน้าบ้านทำนายดวงเปิดไพ่ขึ้นใหม่ ฉันจึงได้ทำการ Design และสร้างหน้าต่าง ๆ ขึ้นมา"
+    },
+    "link": "https://daily.zinzaebarcode.com/",
+    "github": "",
+    "tools": [
+      "Svelte",
+      "SvelteKit",
+      "Tailwind CSS",
+      "GSap"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/horoscope/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/horoscope/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/horoscope/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/horoscope/4.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/horoscope/5.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/horoscope/6.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/horoscope/7.png"
+      }
+    ]
+  },
+  {
+    "name": "Slide Car",
+    "description": {
+      "en": "This project is a Production project that is actually used. It is a website that provides towing services in Phuket province. It displays various information about the towing service.",
+      "th": "เป็น Production Project ที่นำไปใช้งานจริง โดยจะเป็นเว็บที่ให้บริการรถลากจูงในจังหวัดภูเก็ต โดยมีการแสดงข้อมูลต่างๆการให้บริการของรถลากจูง"
+    },
+    "link": "https://www.phuketcartowslide.com/",
+    "github": "",
+    "tools": [
+      "Vue.js",
+      "Nuxt.js",
+      "Tailwind CSS",
+      "I18n",
+      "SSR"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/oatslidecar/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/oatslidecar/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/oatslidecar/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/oatslidecar/4.png"
+      }
+    ]
+  },
+  {
+    "name": "Aurasol Backoffice",
+    "description": {
+      "en": "This project is a Production project that is actually used. It is a back office website for Aurasol to manage the landing page. It has various templates that can be customized as needed.",
+      "th": "โปรเจคนี้เป็น Production ที่นำไปใช้งานจริง โดยจะเป็นเว็บหลังบ้านที่ให้ร้าน Aurasol ใช้ในการจัดการเว็บ Landing มี template หลากให้สามารถปรับเปลี่ยนได้ตามต้องการ"
+    },
+    "link": "https://aurasol.co/",
+    "github": "",
+    "tools": [
+      "Vue.js",
+      "Nuxt.js",
+      "Tailwind CSS",
+      "Skeleton",
+      "I18n",
+      "SSR"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/4.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/5.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/6.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/7.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/8.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/9.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/10.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/11.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurabackoffice/12.png"
+      }
+    ]
+  },
+  {
+    "name": "Aurasol",
+    "description": {
+      "en": "This project is a Production project that is actually used. It is a website for a spa called Aurasol. It is a website that displays information about the store and can customize the windows as needed.",
+      "th": "โปรเจคนี้เป็น Production ที่นำไปใช้งานจริง โดยเป็นเว็บของร้านสปาชื่อว่า Aurasol โดยเป็นเว็บแสดงข้อมูลของร้านสามารถ Customize หน้าต่าง ๆ ได้ตามต้องการ"
+    },
+    "link": "https://aurasol.co/",
+    "github": "",
+    "tools": [
+      "Vue.js",
+      "Nuxt.js",
+      "Tailwind CSS",
+      "Skeleton",
+      "I18n",
+      "SSR"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/aurasol/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurasol/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurasol/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurasol/4.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurasol/5.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurasol/6.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/aurasol/7.png"
+      }
+    ]
+  },
+  {
+    "name": "Doofat",
+    "description": {
+      "en": "Doofat is an application used for restaurant data management. The main features include managing food menus, restaurants, orders, and payments. It uses WebSocket technology for communication between the server and client to display real-time data.",
+      "th": "Doofat เป็นแอพพลิเคชั่นที่ใช้สำหรับการจัดการข้อมูลของร้านอาหาร โดยมีฟีเจอร์หลัก ๆ คือ การจัดการเมนูอาหาร ร้านอาหาร ออเดอร์ และการชำระเงิน โดยมีการใช้เทคโนโลยี WebSocket ในการสื่อสารระหว่าง Server และ Client เพื่อให้สามารถแสดงผลข้อมูลแบบ Real-time ได้"
+    },
+    "link": "https://drive.google.com/file/d/1hnAi2g2b_bZpMTXa3kmIzDaAjVgEo-sy/view",
+    "github": "https://github.com/poompongphun/doofat",
+    "tools": [
+      "Vue.js",
+      "Vuetify",
+      "Express.js",
+      "MySQL",
+      "Prisma",
+      "Docker",
+      "WebSocket",
+      "NFC",
+      "QR Code"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/doofat/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/doofat/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/doofat/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/doofat/4.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/doofat/5.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/doofat/6.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/doofat/7.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/doofat/8.png"
+      }
+    ]
+  },
+  {
+    "name": "PunctualitySupport",
+    "description": {
+      "en": "This project is a project that I did with my friends. This project is a wake-up clock app that is difficult to turn off. You have to do various activities to turn off the alarm.",
+      "th": "โปรเจคนี้พัฒนาร่วมกับเพื่อน เพื่อแก้ปัญหาการมาสายของนักศึกษา โดยเป็นแอพนาฬิกาปลุกที่ปิดได้ยาก ต้องทำกิจกรรมต่าง ๆ เพื่อที่จะปิดนาฬิกาปลุก"
+    },
+    "link": "",
+    "github": "https://github.com/poompongphun/PunctualitySupport",
+    "tools": [
+      "React Native",
+      "Expo"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/mobile/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/4.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/5.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/6.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/7.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/8.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/mobile/9.png"
+      }
+    ]
+  },
+  {
+    "name": "Disro",
+    "description": {
+      "en": "This project is a project that I did with my friends. This project is a Discord clone mixed with Trello. It was developed using the Microservices architecture, using Java Spring Boot as the backend and React.js as the frontend. The main features include creating chat rooms, voice chat, creating boards, and other general settings.",
+      "th": "โปรเจคนี้เป็นโปรเจคส่งอาจารย์ ทำร่วมกับเพื่อนเป็นแนว Discord Clone ผสมกับ Trello พัฒนาโดยใช้สถาปัตยกรรม Microservices โดยใช้ Java Spring Boot เป็น Backend และ React.js เป็น Frontend โดยมีฟีเจอร์หลัก ๆ คือ การสร้างห้องแชท พูดคุยแชทเสียง การสร้างกระดาน และตั้งค่าอื่นๆ ทั่วไป"
+    },
+    "link": "https://youtu.be/FoMwAJzb76s?si=QK-qmXcXfGKjGkZg",
+    "github": "https://github.com/poompongphun/disro",
+    "tools": [
+      "React.js",
+      "Next.js",
+      "Java",
+      "Spingboot",
+      "MySQL",
+      "NoSQL",
+      "Python",
+      "Microservices",
+      "RabbitMQ",
+      "Redis",
+      "Eureka",
+      "WebSocket",
+      "WebRTC"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/disro/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/disro/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/disro/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/disro/4.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/disro/5.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/disro/6.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/disro/7.png"
+      }
+    ]
+  },
+  {
+    "name": "Meow Clinic",
+    "description": {
+      "en": "This project is a project that I did with my friends in the OOP class. This is a website that is used to manage and store data. It may be software designed specifically for use in hospitals or animal hospitals, which must have various characteristics such as recording sick animals, scheduling appointments, and payment systems. The main goal of the program is to prepare data for storage and organize information related to animal treatment and other important information about each animal. This program is also a tool for scheduling appointments, as well as having features for managing financial transactions by charging fees that can be paid through multiple channels, helping to increase work efficiency and making all necessary information readily available and easily accessible.",
+      "th": "โปรเจคนี้เป็นโปรเจคที่ทำส่งอาจารย์ร่วมกับเพื่อนในวิชา OOP โดยเป็นเว็บจัดทำขึ้นมาสำหรับจัดการและจัดเก็บข้อมูลอาจเป็นซอฟต์แวร์ที่ออกแบบเฉพาะสำหรับใช้ในสถานพยาบาลหรือโรงพยาบาลสัตว์ซึ่งจำเป็นต้องมีคุณสมบัติต่าง ๆ เช่น บันทึกสัตว์ที่ป่วย การจัดตารางนัดหมาย ระบบชำระค่าบริการเป้าหมายหลักของโปรแกรมคือการจัดเตรียมข้อมูลสำหรับจัดเก็บ และ จัดระเบียบข้อมูลที่เกี่ยวข้องกับการรักษาสัตว์ และ ข้อมูลสำคัญอื่น ๆ เกี่ยวกับสัตว์แต่ละตัวโปรแกรมนี้ยังเป็นเครื่องมือสำหรับการจัดกำหนดการนัดหมาย ตลอดจนมีคุณสมบัติสำหรับการจัดการธุรกรรมทางการเงินโดยการคิดค่าบริการซึ่งสามารถชำระได้หลายช่องทาง ช่วยเพิ่มความคล่องตัวของการทำงานและทำให้ข้อมูลที่จำเป็นทั้งหมดพร้อมใช้งานและเข้าถึงได้ง่าย"
+    },
+    "link": "",
+    "github": "https://github.com/yyolradee/MeowClinic",
+    "tools": [
+      "Java",
+      "MVC",
+      "Swing",
+      "MySQL"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/3.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/4.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/5.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/6.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/7.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/meowclinic/8.png"
+      }
+    ]
+  },
+  {
+    "name": "Car Reverse Sensor",
+    "description": {
+      "en": "Car Reverse Sensor or Ultrasonic Distance Sensor is designed to assist in parking a car. It uses an ultrasonic distance sensor, which detects objects using the principle of sound wave reflection. The distance is calculated based on the time taken for the sound wave to travel and return. This mechanism can be applied in various ways. In this project, it controls the system's operation. If the car reverses and hits an object, it sends a warning signal via WiFi to a website to alert the user.",
+      "th": "Car Reverse Sensor หรือ เซนเซอร์วัดระยะห่างของรถยนต์ สร้างขึ้นมาเพื่อใช้ในการถอยรถยนต์เพื่อเข้าจอด โดยใช้ ultrasonic distance sensor ซึ่งเป็นเซ็นเซอร์ที่ใช้สำหรับตรวจจับวัดถุต่างๆ โดยอาศัยหลักการสะท้อนของคลื่นความถี่เสียง คำนวณหาค่าระยะทางได้จากการเดินทางของคลื่นและนำมาเทียบกับเวลา ด้วยกลไกดังกล่าวทำให้สามารถนำมาประยุกต์ใช้งานในรูปแบบต่าง ๆ ได้อย่างมากมาย มาเป็นตัวควบคุมการทำงานของระบบ โดยหากรถยนต์ได้ถอยมากระทบกับวัตถุบางอย่าง จะใช้สัญญาณ WiFi เพื่อส่งสัญญานเตือนผ่านหน้า Website เพื่อแจ้งเตือนให้ผู้ใช้งานได้ทราบ"
+    },
+    "link": "https://compro.pongphun.com/",
+    "github": "https://github.com/poompongphun/compro-project",
+    "tools": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "C",
+      "Arduino",
+      "Tinkercad",
+      "Wokwi",
+      "MQTT"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/carreversesensor/1.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/carreversesensor/2.png"
+      },
+      {
+        "name": "",
+        "src": "/images/preview/carreversesensor/3.png"
+      }
+    ]
+  },
+  {
+    "name": "PhotoRetouch",
+    "description": {
+      "en": "This project is a group project that I did with my friends. This project is a website that can detect acne in the image and remove acne marks. We trained the model with over 1000 acne images. Users can upload images to remove acne through the website.",
+      "th": "โปรเจคนี้เป็นงานกลุ่มที่ทำร่วมกับเพื่อนเป็นโปรเจคที่ทำการตรวจจับสิวในภาพและทำการลบรอยสิวออก โดยเราได้เทรน Model ด้วยภาพสิวกว่า 1000 ภาพ ซึ่งผู้ใช้สามารถอัพโหลดภาพเพื่อดำเนินการลบสิวได้ผ่านเว็บไซต์"
+    },
+    "link": "https://pongphun.com/facefilter/",
+    "github": "https://github.com/poompongphun/facefilter",
+    "tools": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Python",
+      "FastAPI",
+      "Numpy",
+      "OpenCV"
+    ],
+    "img": [
+      {
+        "name": "",
+        "src": "/images/preview/photoretouch/1.png"
+      },
+      {
+        "name": "Face Retouch",
+        "src": "/images/preview/photoretouch/2.png"
+      },
+      {
+        "name": "Face Retouch",
+        "src": "/images/preview/photoretouch/3.png"
+      }
+    ]
+  },
+  {
     "name": "ITGG",
     "description": {
       "en": "",
